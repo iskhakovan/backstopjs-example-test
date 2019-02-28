@@ -1,0 +1,14 @@
+{
+  "name": "backstopjs-tests-example",
+  "version": "1.0.0",
+  "description": "Visual regression tests using BackstopJS",
+  "scripts": {
+    "test": "backstop test --docker --configPath=backstopConfig.js",
+    "approve": "backstop approve --docker --configPath=backstopConfig.js",
+    "reference": "backstop reference --docker --configPath=backstopConfig.js",
+    "openReport": "backstop openReport --docker --configPath=backstopConfig.js"
+  },
+  "devDependencies": {
+    "backstopjs": "^3.8.8"
+  }
+}
